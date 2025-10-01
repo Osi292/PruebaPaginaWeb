@@ -26,3 +26,127 @@
 0017.988 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
 0023.114 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
 0028.218 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
+0000.023 () Opened log file at time: Wed, 01 Oct 2025 23:18:17 +0000 on http://localhost/prueba
+0000.024 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP 10.0 build 26100 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: es_ES Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 66M | 68M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.024 () Free space on disk containing Updraft's temporary directory: 117053.3 MB
+0000.048 () Restore setup, now closing connection and starting restore over AJAX.
+0000.025 () Opened log file at time: Wed, 01 Oct 2025 23:18:18 +0000 on http://localhost/prueba
+0000.026 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP 10.0 build 26100 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: es_ES Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.2M | 66M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.026 () Free space on disk containing Updraft's temporary directory: 117053.4 MB
+0000.043 () Ensuring WP_Filesystem is setup for a restore
+0000.044 () WP_Filesystem is setup and ready for a restore
+0000.066 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.069 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\prueba\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.077 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.077 () Entity: db
+0000.077 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.077 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz, 0.1 Mb)
+0000.078 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\prueba\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.081 () Database successfully unpacked
+0000.082 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.091 () Using direct MySQL access; value of use_mysqli is: 1
+0000.091 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.140 () Tried to raise max_allowed_packet from 1 MB to 32 MB, but failed (, i:0;)
+0000.140 () Max packet size: 1 MB
+0000.140 () Entering maintenance mode
+0000.140 () Activando el modo de mantenimiento&#8230;
+0000.170 () Backup of: http://localhost/prueba
+0000.172 () Content URL: http://localhost/prueba/wp-content
+0000.172 () Uploads URL: http://localhost/prueba/wp-content/uploads
+0000.172 () Old table prefix: wp_
+0000.172 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.172 () Site information: multisite=0
+0000.172 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.173 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.173 () New table prefix: ge_
+0000.175 () Processing table (InnoDB): wp_options - will restore as: ge_options
+0000.230 () Atomic restore: dropping original table (wp_options)
+0000.233 () Atomic restore: renaming new table (ge_options) to final table name (wp_options)
+0000.237 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.248 () Processing table (InnoDB): wp_users - will restore as: ge_users
+0000.291 () Atomic restore: dropping original table (wp_users)
+0000.293 () Atomic restore: renaming new table (ge_users) to final table name (wp_users)
+0000.298 () Processing table (InnoDB): wp_usermeta - will restore as: ge_usermeta
+0000.323 () Atomic restore: dropping original table (wp_usermeta)
+0000.327 () Atomic restore: renaming new table (ge_usermeta) to final table name (wp_usermeta)
+0000.332 () Processing table (InnoDB): wp_commentmeta - will restore as: ge_commentmeta
+0000.370 () Atomic restore: dropping original table (wp_commentmeta)
+0000.375 () Atomic restore: renaming new table (ge_commentmeta) to final table name (wp_commentmeta)
+0000.378 () Processing table (InnoDB): wp_comments - will restore as: ge_comments
+0000.423 () Atomic restore: dropping original table (wp_comments)
+0000.427 () Atomic restore: renaming new table (ge_comments) to final table name (wp_comments)
+0000.432 () Processing table (InnoDB): wp_links - will restore as: ge_links
+0000.469 () Atomic restore: dropping original table (wp_links)
+0000.474 () Atomic restore: renaming new table (ge_links) to final table name (wp_links)
+0000.478 () Processing table (InnoDB): wp_postmeta - will restore as: ge_postmeta
+0000.517 () Atomic restore: dropping original table (wp_postmeta)
+0000.521 () Atomic restore: renaming new table (ge_postmeta) to final table name (wp_postmeta)
+0000.525 () Processing table (InnoDB): wp_posts - will restore as: ge_posts
+0000.572 () Atomic restore: dropping original table (wp_posts)
+0000.575 () Atomic restore: renaming new table (ge_posts) to final table name (wp_posts)
+0000.580 () Processing table (InnoDB): wp_term_relationships - will restore as: ge_term_relationships
+0000.618 () Atomic restore: dropping original table (wp_term_relationships)
+0000.622 () Atomic restore: renaming new table (ge_term_relationships) to final table name (wp_term_relationships)
+0000.626 () Processing table (InnoDB): wp_term_taxonomy - will restore as: ge_term_taxonomy
+0000.667 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.671 () Atomic restore: renaming new table (ge_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.675 () Processing table (InnoDB): wp_termmeta - will restore as: ge_termmeta
+0000.717 () Atomic restore: dropping original table (wp_termmeta)
+0000.722 () Atomic restore: renaming new table (ge_termmeta) to final table name (wp_termmeta)
+0000.727 () Processing table (InnoDB): wp_terms - will restore as: ge_terms
+0000.756 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0000.763 () Unlocking database and leaving maintenance mode
+0000.763 () Desactivando el modo de mantenimiento&#8230;
+0000.763 () Atomic restore: dropping original table (wp_terms)
+0000.766 () Atomic restore: renaming new table (ge_terms) to final table name (wp_terms)
+0000.771 () Finished: lines processed: 45 in 0.68 seconds
+0000.772 () Cleaning up rubbish...
+0000.773 () Begin search and replace (updraftplus_restored_db)
+0000.773 () [Database-replace-site-url] Database: search and replace site URL
+0000.773 () This option was not selected.
+0000.778 () Entity: plugins
+0000.778 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:41:"C:\xampp\htdocs\prueba/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.779 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-plugins.zip, 19.3 MB)
+0000.781 () Unzipping backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-plugins.zip to C:/xampp/htdocs/prueba/wp-content/upgrade/cecdf14a/ using UpdraftPlus_PclZip, starting index 0
+0001.676 () Unzip progress: 1002 out of 4417 files (8.8 MB, plugins/kadence-blocks/dist/style-blocks-column-rtl.css)
+0003.256 () Unzip progress: 2003 out of 4417 files (19.2 MB, plugins/kadence-blocks/vendor/vendor-prefixed/symfony/mime/Header/ParameterizedHeader.php)
+0007.534 () Unzip progress: 3004 out of 4417 files (29.4 MB, plugins/kadence-starter-templates/vendor/vendor-prefixed/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php)
+0012.354 () Unzip progress: 4005 out of 4417 files (52.7 MB, plugins/updraftplus/vendor/guzzlehttp/promises/CHANGELOG.md)
+0013.888 () Unzip progress: 4417 out of 4417 files (55.6 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0013.892 () Moving old data: filesystem method / updraft_dir is potentially possible
+0013.893 () Moving old data: can potentially use wp_filesystem method / -old
+0013.893 () Moving old data out of the way...
+0015.572 () Top-level entities being moved: akismet, classic-editor, hello.php, index.php, kadence-blocks, kadence-starter-templates, svg-support, updraftplus
+0015.922 () Moving unpacked backup into place...
+0019.565 () Top-level entities being moved: akismet, classic-editor, hello.php, index.php, kadence-blocks, kadence-starter-templates, svg-support, updraftplus
+0019.644 () Cleaning up rubbish...
+0019.676 () Entity: themes
+0019.676 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-themes.zip, type=themes, info=a:3:{s:4:"path";s:40:"C:\xampp\htdocs\prueba/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0019.683 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-themes.zip, 2 MB)
+0019.684 () Unzipping backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-themes.zip to C:/xampp/htdocs/prueba/wp-content/upgrade/2f9b92b0/ using UpdraftPlus_PclZip, starting index 0
+0021.433 () Unzip progress: 671 out of 671 files (7.8 MB, themes/kadence/tutor/single/course/enrolled/content-lead-info.php)
+0021.435 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.438 () Moving old data: can potentially use wp_filesystem method / -old
+0021.438 () Moving old data out of the way...
+0021.614 () Top-level entities being moved: index.php, kadence
+0021.619 () Moving unpacked backup into place...
+0021.769 () Top-level entities being moved: index.php, kadence
+0021.779 () Cleaning up rubbish...
+0021.786 () Entity: uploads
+0021.786 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:41:"C:\xampp\htdocs\prueba/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0021.788 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-uploads.zip, 1.2 MB)
+0021.790 () Unzipping backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-uploads.zip to C:/xampp/htdocs/prueba/wp-content/upgrade/e8c7bae9/ using UpdraftPlus_PclZip, starting index 0
+0021.837 () Unzip progress: 12 out of 12 files (1.6 MB, uploads/kadence_starter_templates/123bd1c8a36e37fe4b6bda5a7fb99b59.json)
+0021.840 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.842 () Moving old data: can potentially use wp_filesystem method / -old
+0021.842 () Moving old data out of the way...
+0021.875 () Moving unpacked backup into place...
+0021.898 () Cleaning up rubbish...
+0021.912 () Entity: others
+0021.912 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-others.zip, type=others, info=a:2:{s:4:"path";s:33:"C:\xampp\htdocs\prueba/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0021.916 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-others.zip, 2.5 MB)
+0021.920 () Unzipping backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-others.zip to C:/xampp/htdocs/prueba/wp-content/upgrade/61849c89/ using UpdraftPlus_PclZip, starting index 0
+0022.561 () Unzip progress: 223 out of 223 files (8.8 MB, languages/themes/kadence-es_ES.po)
+0022.602 () Cleaning up rubbish...
+0022.695 () Restore successful!
+0022.695 () Restore successful
