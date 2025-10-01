@@ -1,0 +1,28 @@
+0000.032 () Opened log file at time: Wed, 01 Oct 2025 23:08:04 +0000 on http://localhost/prueba
+0000.033 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP 10.0 build 26100 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: es_ES Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 66M | 68M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.033 () Free space on disk containing Updraft's temporary directory: 117107.4 MB
+0000.073 () Restore setup, now closing connection and starting restore over AJAX.
+0000.031 () Opened log file at time: Wed, 01 Oct 2025 23:08:05 +0000 on http://localhost/prueba
+0000.032 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.7 WP: 6.8.2 PHP: 8.2.12 (apache2handler, Windows NT LAPTOP 10.0 build 26100 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: es_ES Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.2M | 66M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: N
+0000.032 () Free space on disk containing Updraft's temporary directory: 117107.4 MB
+0000.055 () Ensuring WP_Filesystem is setup for a restore
+0000.058 () WP_Filesystem is setup and ready for a restore
+0000.064 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.068 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\prueba\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.105 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.108 () Entity: db
+0000.108 () restore_backup(backup_file=backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.108 () Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz, 0.1 Mb)
+0000.109 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\prueba\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.111 () Database successfully unpacked
+0000.112 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.135 () Using direct MySQL access; value of use_mysqli is: 1
+0000.136 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.214 () Max packet size: 32 MB
+0000.214 () Entering maintenance mode
+0000.214 () Activando el modo de mantenimiento&#8230;
+0007.763 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
+0012.883 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
+0017.988 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
+0023.114 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)
+0028.218 () PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión (line 1991, C:\xampp\htdocs\prueba\wp-includes\class-wpdb.php)

@@ -1,0 +1,14 @@
+0000.065 (R) [notice] Looking for db archive: file name: backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz
+0000.066 (R) [notice] Archive is expected to be size: 53.1 KB: OK
+0000.087 (R) [notice] Looking for plugins archive: file name: backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-plugins.zip
+0000.089 (R) [notice] Archive is expected to be size: 19725.2 KB: OK
+0000.093 (R) [notice] Looking for themes archive: file name: backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-themes.zip
+0000.094 (R) [notice] Archive is expected to be size: 2002.1 KB: OK
+0000.097 (R) [notice] Looking for uploads archive: file name: backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-uploads.zip
+0000.098 (R) [notice] Archive is expected to be size: 1278 KB: OK
+0000.101 (R) [notice] Looking for others archive: file name: backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-others.zip
+0000.102 (R) [notice] Archive is expected to be size: 2538.9 KB: OK
+0000.105 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.109 (R) [notice] Unpacking backup... (backup_2025-10-01-2302_Prueba_Pagina_web_e873b14d82a1-db.gz, 0.1 Mb)
+0000.112 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.214 (R) [notice] Activando el modo de mantenimiento&#8230;
